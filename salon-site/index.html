@@ -184,7 +184,7 @@
     margin-bottom: 22px;
   }
   .hero h1 {
-    font-size: clamp(56px, 8.6vw, 132px);
+    font-size: clamp(50px, 7.4vw, 112px);
     color: var(--blush);
     margin-bottom: 30px;
   }
@@ -532,7 +532,7 @@
   /* ---------- Reveal on scroll ---------- */
   .reveal { opacity: 0; transform: translateY(40px); transition: opacity 1.1s var(--ease), transform 1.1s var(--ease); }
   .reveal.in { opacity: 1; transform: none; }
-  .split .w { display: inline-block; overflow: hidden; vertical-align: top; padding-bottom: .06em; margin-bottom: -.06em; }
+  .split .w { display: inline-block; overflow: hidden; vertical-align: top; padding: 0 .1em .06em 0; margin: 0 -.1em -.06em 0; }
   .split .w > span { display: inline-block; transform: translateY(105%); transition: transform 1.1s var(--ease); }
   .split.in .w > span { transform: none; }
   .cond small .w { vertical-align: baseline; }
@@ -613,7 +613,7 @@
       <a href="#visit">Visit</a>
     </div>
   </div>
-  <a class="nav-cta" href="#visit">BOOK</a>
+  <a class="nav-cta" href="#visit">TEXT</a>
 </header>
 
 <main id="top">
@@ -622,27 +622,27 @@
 <section class="hero">
   <div class="hero-copy">
     <p class="eyebrow">Bananas Hair · North Phoenix &amp; Scottsdale</p>
-    <h1 class="serif split">Hair, made<br>just for <em>you.</em></h1>
-    <a class="pill" href="#visit"><span>Book an appointment</span><i><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 8h11M9 4l4 4-4 4"/></svg></i></a>
+    <h1 class="serif split">Beautiful color,<br>without the <em>four hours.</em></h1>
+    <a class="pill" href="#visit"><span>Text to book</span><i><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 8h11M9 4l4 4-4 4"/></svg></i></a>
   </div>
 
   <div class="hero-cards">
     <a class="card card-link" href="#services">Services <svg viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 9h13M10 4l5 5-5 5"/></svg></a>
     <a class="card tall" href="#story">
-      <div class="ph grain" data-label="Portrait of her" style="--c1:#7a5444;--c2:#3a251c"></div>
-      <p>Meet your stylist</p>
+      <div class="ph grain" data-label="Portrait of Deanna" style="--c1:#7a5444;--c2:#3a251c"></div>
+      <p>Meet Deanna</p>
     </a>
     <a class="card small" href="#services">
       <div class="swatch-stack" aria-hidden="true">
         <span style="background:#3b2418"></span><span style="background:#7b4a2e"></span><span style="background:#b07a52"></span><span style="background:#d8b48a"></span><span style="background:#efd9b8"></span>
       </div>
-      <p>Signature color</p>
+      <p>Highlights, her favorite</p>
     </a>
     <a class="card wide" href="#process">
       <div class="ph grain" data-label="Studio" style="height:96px;--c1:#5a3b2e;--c2:#211612"></div>
       <div>
-        <h4>The private studio</h4>
-        <p>No crowded floor, no rush. Just you, one chair, and her full attention.</p>
+        <h4>In and out in about 90 minutes</h4>
+        <p>No double-booking, no juggling. Color and even highlights usually take about an hour and a half.</p>
       </div>
     </a>
   </div>
@@ -650,15 +650,15 @@
   <div class="hero-strip">
     <div class="strip-item active">
       <div class="ph" data-label="" style="--c1:#8a5f48;--c2:#3b2418"></div>
-      <div><b>01</b>Precision cuts,<br>made to grow out well.</div>
+      <div><b>01</b>29 years<br>behind the chair.</div>
     </div>
     <div class="strip-item">
       <div class="ph" data-label="" style="--c1:#c99a72;--c2:#6b4530"></div>
-      <div><b>02</b>Lived-in color<br>and soft balayage.</div>
+      <div><b>02</b>Advanced cutting and<br>color training in NYC.</div>
     </div>
     <div class="strip-item">
       <div class="ph" data-label="" style="--c1:#a07766;--c2:#4a2f24"></div>
-      <div><b>03</b>One stylist,<br>start to finish.</div>
+      <div><b>03</b>Clients from<br>age 4 to 90.</div>
     </div>
     <div class="strip-end"></div>
   </div>
@@ -668,18 +668,18 @@
 <section class="marquee" aria-label="Signature services">
   <div class="marquee-track">
     <!-- duplicated once for a seamless loop -->
-    <div class="tile" style="background:#7b4a2e"><div class="orb"></div><span class="num">01</span><div><h3 class="cond">Balayage</h3><p>Hand-painted, sun-soft dimension.</p></div></div>
-    <div class="tile" style="background:#3f2a4a"><div class="orb"></div><span class="num">02</span><div><h3 class="cond">Gloss</h3><p>Shine and tone refresh in under an hour.</p></div></div>
-    <div class="tile" style="background:#a35b4b"><div class="orb"></div><span class="num">03</span><div><h3 class="cond">Cut &amp; Style</h3><p>Shaped to your face and your routine.</p></div></div>
-    <div class="tile" style="background:#2f4a3c"><div class="orb"></div><span class="num">04</span><div><h3 class="cond">Root Touch</h3><p>Seamless coverage, every 4–6 weeks.</p></div></div>
-    <div class="tile" style="background:#b8875e"><div class="orb"></div><span class="num">05</span><div><h3 class="cond">Highlights</h3><p>Bright, blended, never stripey.</p></div></div>
-    <div class="tile" style="background:#5c2d32"><div class="orb"></div><span class="num">06</span><div><h3 class="cond">Blowout</h3><p>Smooth, full and event-ready.</p></div></div>
-    <div class="tile" style="background:#7b4a2e" aria-hidden="true"><div class="orb"></div><span class="num">01</span><div><h3 class="cond">Balayage</h3><p>Hand-painted, sun-soft dimension.</p></div></div>
-    <div class="tile" style="background:#3f2a4a" aria-hidden="true"><div class="orb"></div><span class="num">02</span><div><h3 class="cond">Gloss</h3><p>Shine and tone refresh in under an hour.</p></div></div>
-    <div class="tile" style="background:#a35b4b" aria-hidden="true"><div class="orb"></div><span class="num">03</span><div><h3 class="cond">Cut &amp; Style</h3><p>Shaped to your face and your routine.</p></div></div>
-    <div class="tile" style="background:#2f4a3c" aria-hidden="true"><div class="orb"></div><span class="num">04</span><div><h3 class="cond">Root Touch</h3><p>Seamless coverage, every 4–6 weeks.</p></div></div>
-    <div class="tile" style="background:#b8875e" aria-hidden="true"><div class="orb"></div><span class="num">05</span><div><h3 class="cond">Highlights</h3><p>Bright, blended, never stripey.</p></div></div>
-    <div class="tile" style="background:#5c2d32" aria-hidden="true"><div class="orb"></div><span class="num">06</span><div><h3 class="cond">Blowout</h3><p>Smooth, full and event-ready.</p></div></div>
+    <div class="tile" style="background:#b8875e"><div class="orb"></div><span class="num">01</span><div><h3 class="cond">Highlights</h3><p>Her favorite. Bright, blended, never stripey.</p></div></div>
+    <div class="tile" style="background:#7b4a2e"><div class="orb"></div><span class="num">02</span><div><h3 class="cond">Color</h3><p>Rich all-over shades and gray coverage.</p></div></div>
+    <div class="tile" style="background:#2f4a3c"><div class="orb"></div><span class="num">03</span><div><h3 class="cond">Root Touch-Up</h3><p>Fresh roots without losing your afternoon.</p></div></div>
+    <div class="tile" style="background:#a35b4b"><div class="orb"></div><span class="num">04</span><div><h3 class="cond">Women&#8217;s Cuts</h3><p>Shaped to your face and your routine.</p></div></div>
+    <div class="tile" style="background:#3f2a4a"><div class="orb"></div><span class="num">05</span><div><h3 class="cond">Men&#8217;s Cuts</h3><p>Clean, sharp and quick.</p></div></div>
+    <div class="tile" style="background:#5c2d32"><div class="orb"></div><span class="num">06</span><div><h3 class="cond">Kids&#8217; Cuts</h3><p>Patient and fun, from age four up.</p></div></div>
+    <div class="tile" style="background:#b8875e" aria-hidden="true"><div class="orb"></div><span class="num">01</span><div><h3 class="cond">Highlights</h3><p>Her favorite. Bright, blended, never stripey.</p></div></div>
+    <div class="tile" style="background:#7b4a2e" aria-hidden="true"><div class="orb"></div><span class="num">02</span><div><h3 class="cond">Color</h3><p>Rich all-over shades and gray coverage.</p></div></div>
+    <div class="tile" style="background:#2f4a3c" aria-hidden="true"><div class="orb"></div><span class="num">03</span><div><h3 class="cond">Root Touch-Up</h3><p>Fresh roots without losing your afternoon.</p></div></div>
+    <div class="tile" style="background:#a35b4b" aria-hidden="true"><div class="orb"></div><span class="num">04</span><div><h3 class="cond">Women&#8217;s Cuts</h3><p>Shaped to your face and your routine.</p></div></div>
+    <div class="tile" style="background:#3f2a4a" aria-hidden="true"><div class="orb"></div><span class="num">05</span><div><h3 class="cond">Men&#8217;s Cuts</h3><p>Clean, sharp and quick.</p></div></div>
+    <div class="tile" style="background:#5c2d32" aria-hidden="true"><div class="orb"></div><span class="num">06</span><div><h3 class="cond">Kids&#8217; Cuts</h3><p>Patient and fun, from age four up.</p></div></div>
   </div>
 </section>
 
@@ -694,11 +694,11 @@
   <figure class="polaroid p5" data-speed="-0.12"><div class="ph" style="--c1:#c9a58a;--c2:#7a5444"></div><figcaption>first chair</figcaption></figure>
   <figure class="polaroid p4" data-speed="0.18"><div class="ph" style="--c1:#9c7a6a;--c2:#3b2a24"></div><figcaption>the studio</figcaption></figure>
   <figure class="polaroid p1" data-speed="0.1"><div class="ph" style="--c1:#b99579;--c2:#5a3b2e"></div><figcaption>before / after</figcaption></figure>
-  <figure class="polaroid p2" data-speed="-0.16"><div class="ph" style="--c1:#d8b48a;--c2:#7b4a2e"></div><figcaption>her</figcaption></figure>
+  <figure class="polaroid p2" data-speed="-0.16"><div class="ph" style="--c1:#d8b48a;--c2:#7b4a2e"></div><figcaption>Deanna</figcaption></figure>
   <figure class="polaroid p3" data-speed="0.22"><div class="ph" style="--c1:#e3c1ad;--c2:#8a5f48"></div><figcaption>regulars</figcaption></figure>
 
   <h2 class="cond split">One chair<br><small>one</small> artist<br><small>all of</small> her time</h2>
-  <p class="lede reveal">After years behind the chair in busy salons, she opened a private studio of her own. Every appointment is one-on-one, from the first consultation to the final mirror check.</p>
+  <p class="lede reveal">Deanna has been doing hair for 29 years, with advanced cutting and color training in New York City. In her private studio there is no double-booking and no juggling. You get her full attention, and you are usually out the door in about an hour and a half, highlights included.</p>
   <a class="pill reveal" href="#process"><span>Her story</span><i><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 8h11M9 4l4 4-4 4"/></svg></i></a>
 </section>
 
@@ -716,9 +716,9 @@
   <div class="item" style="right:20%;top:90px;width:min(230px,40vw)" data-speed="-0.12"><div class="frame"><div class="ph" style="height:150px;--c1:#d8b48a;--c2:#8a5f48" data-label="Happy client"></div></div></div>
   <div class="item" style="right:4%;top:140px;width:min(170px,30vw)" data-speed="0.2"><div class="frame" style="background:#fff3e8"><div class="ph" style="height:210px;--c1:#a35b4b;--c2:#3b2418" data-label="Editorial"></div></div></div>
 
-  <div class="item" style="right:22%;top:420px" data-speed="-0.04"><span class="chip"><i></i><b>Years</b> 20+ behind the chair</span></div>
-  <div class="item" style="left:8%;top:560px" data-speed="0.08"><span class="chip"><i></i><b>Studio</b> Opened her private suite</span></div>
-  <div class="item" style="left:44%;top:640px" data-speed="0.03"><span class="chip"><i></i><b>Clients</b> Hundreds of regulars</span></div>
+  <div class="item" style="right:22%;top:420px" data-speed="-0.04"><span class="chip"><i></i><b>Years</b> 29 behind the chair</span></div>
+  <div class="item" style="left:8%;top:560px" data-speed="0.08"><span class="chip"><i></i><b>Training</b> Cutting &amp; color in NYC</span></div>
+  <div class="item" style="left:44%;top:640px" data-speed="0.03"><span class="chip"><i></i><b>Clients</b> Ages 4 to 90</span></div>
 
   <!-- Tools of the trade, drawn in SVG -->
   <div class="item tool" style="left:30%;top:520px;width:120px" data-speed="0.16" aria-hidden="true">
@@ -738,48 +738,48 @@
     <article class="step reveal"><span class="n">03</span><div><h3>Cut</h3><p>Shaped for how your hair actually falls, so it still looks good in week six.</p></div></article>
     <article class="step reveal"><span class="n">04</span><div><h3>Finish</h3><p>A finished style, plus the exact steps and products to recreate it at home.</p></div></article>
   </div>
-  <p class="lede reveal">A great appointment starts with listening and ends with hair that feels like yours, only better.</p>
-  <a class="pill reveal" href="#visit"><span>Book a consultation</span><i><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 8h11M9 4l4 4-4 4"/></svg></i></a>
+  <p class="lede reveal">Twenty-nine years of practice means no wasted steps. Most color appointments, even highlights, take about an hour and a half instead of four.</p>
+  <a class="pill reveal" href="#visit"><span>Text to book</span><i><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 8h11M9 4l4 4-4 4"/></svg></i></a>
 </section>
 
 <!-- ============ SERVICES ============ -->
 <section class="services" id="services">
   <div class="services-intro">
     <h2 class="serif split">The Services</h2>
-    <p class="reveal">Every service includes a consultation and a finished style. Prices start at the amounts shown and depend on length, density and time.</p>
+    <p class="reveal">Every service includes a consultation and a finished style. Prices start at the amounts shown and depend on length and thickness. Text Deanna to book.</p>
   </div>
   <div class="services-list">
-    <article class="svc reveal">
-      <div>
-        <h3 class="serif">Signature Cut</h3>
-        <p class="price">FROM $XX</p>
-        <a class="pill light" href="#visit"><span>Book</span><i><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 8h11M9 4l4 4-4 4"/></svg></i></a>
-      </div>
-      <div><div class="ph grain" data-label="Cut photo" style="--c1:#8a6a5a;--c2:#3b2a24"></div><p class="desc">Wash, precision cut and blow-dry finish. Includes a styling lesson if you want one.</p></div>
-    </article>
-    <article class="svc reveal">
-      <div>
-        <h3 class="serif">Balayage &amp; Lived-in Color</h3>
-        <p class="price">FROM $XXX</p>
-        <a class="pill light" href="#visit"><span>Book</span><i><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 8h11M9 4l4 4-4 4"/></svg></i></a>
-      </div>
-      <div><div class="ph grain" data-label="Balayage photo" style="--c1:#d8b48a;--c2:#7b4a2e"></div><p class="desc">Hand-painted lightening with toner, for soft, low-maintenance dimension.</p></div>
-    </article>
-    <article class="svc reveal">
-      <div>
-        <h3 class="serif">All-over Color &amp; Gloss</h3>
-        <p class="price">FROM $XX</p>
-        <a class="pill light" href="#visit"><span>Book</span><i><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 8h11M9 4l4 4-4 4"/></svg></i></a>
-      </div>
-      <div><div class="ph grain" data-label="Color photo" style="--c1:#a35b4b;--c2:#3b2418"></div><p class="desc">Root-to-end color, gray coverage or a shine-boosting gloss between visits.</p></div>
-    </article>
     <article class="svc reveal">
       <div>
         <h3 class="serif">Highlights</h3>
         <p class="price">FROM $XXX</p>
         <a class="pill light" href="#visit"><span>Book</span><i><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 8h11M9 4l4 4-4 4"/></svg></i></a>
       </div>
-      <div><div class="ph grain" data-label="Highlights photo" style="--c1:#e3c1ad;--c2:#8a5f48"></div><p class="desc">Partial or full foils for brightness, blended so the grow-out stays soft.</p></div>
+      <div><div class="ph grain" data-label="Highlights photo" style="--c1:#d8b48a;--c2:#7b4a2e"></div><p class="desc">Deanna&#8217;s favorite service. Partial or full highlights, blended so the grow-out stays soft, usually done in about 90 minutes.</p></div>
+    </article>
+    <article class="svc reveal">
+      <div>
+        <h3 class="serif">Women&#8217;s Cut</h3>
+        <p class="price">FROM $XX</p>
+        <a class="pill light" href="#visit"><span>Book</span><i><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 8h11M9 4l4 4-4 4"/></svg></i></a>
+      </div>
+      <div><div class="ph grain" data-label="Cut photo" style="--c1:#8a6a5a;--c2:#3b2a24"></div><p class="desc">Wash, precision cut and blow-dry finish, shaped to your face and how you actually style your hair.</p></div>
+    </article>
+    <article class="svc reveal">
+      <div>
+        <h3 class="serif">All-over Color</h3>
+        <p class="price">FROM $XX</p>
+        <a class="pill light" href="#visit"><span>Book</span><i><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 8h11M9 4l4 4-4 4"/></svg></i></a>
+      </div>
+      <div><div class="ph grain" data-label="Color photo" style="--c1:#a35b4b;--c2:#3b2418"></div><p class="desc">Root touch-ups, gray coverage or a whole new shade, in and out without losing your whole day.</p></div>
+    </article>
+    <article class="svc reveal">
+      <div>
+        <h3 class="serif">Men&#8217;s &amp; Kids&#8217; Cuts</h3>
+        <p class="price">FROM $XX</p>
+        <a class="pill light" href="#visit"><span>Book</span><i><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 8h11M9 4l4 4-4 4"/></svg></i></a>
+      </div>
+      <div><div class="ph grain" data-label="Cut photo" style="--c1:#e3c1ad;--c2:#8a5f48"></div><p class="desc">Quick, clean cuts for the whole family. Patient with little ones, from age four up.</p></div>
     </article>
   </div>
 </section>
@@ -809,7 +809,7 @@
     <span class="stars" aria-label="Five stars">★★★★★</span>
   </div>
   <div class="quotes">
-    <blockquote class="quote reveal"><p>"Placeholder review. Swap in a real quote from a regular client here."</p><footer><span>Client name</span><span>Balayage</span></footer></blockquote>
+    <blockquote class="quote reveal"><p>"Placeholder review. Swap in a real quote from a regular client here."</p><footer><span>Client name</span><span>Highlights</span></footer></blockquote>
     <blockquote class="quote reveal"><p>"Placeholder review. Something about how calm and personal the studio feels."</p><footer><span>Client name</span><span>Cut &amp; Color</span></footer></blockquote>
     <blockquote class="quote reveal"><p>"Placeholder review. Something about the color lasting and growing out beautifully."</p><footer><span>Client name</span><span>Highlights</span></footer></blockquote>
   </div>
@@ -822,14 +822,14 @@
     <div class="visit-info reveal">
       <div><h4>Studio</h4><p>Street address<br>Suite #, North Phoenix / Scottsdale, AZ</p></div>
       <div><h4>Hours</h4><p>Tue – Fri &nbsp;9 – 6<br>Sat &nbsp;9 – 3<br>By appointment</p></div>
-      <div><h4>Contact</h4><p><a href="tel:+10000000000">(000) 000-0000</a><br><a href="#">@instagram</a></p></div>
-      <div><h4>New clients</h4><p>Please book a consultation before color services.</p></div>
-      <div class="full"><a class="pill" href="#"><span>Book online</span><i><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 8h11M9 4l4 4-4 4"/></svg></i></a></div>
+      <div><h4>Text to book</h4><p><a href="sms:+10000000000">(000) 000-0000</a><br><a href="https://www.instagram.com/deannagetzen/">@deannagetzen</a></p></div>
+      <div><h4>New clients</h4><p>Text a photo of your hair and what you are hoping for, and Deanna will get you scheduled.</p></div>
+      <div class="full"><a class="pill" href="sms:+10000000000"><span>Text Deanna</span><i><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 8h11M9 4l4 4-4 4"/></svg></i></a></div>
     </div>
   </div>
   <div class="foot">
     <span>© <span id="yr"></span> Bananas Hair</span>
-    <nav><a href="#services">Services</a><a href="#story">Her Story</a><a href="#">Instagram</a></nav>
+    <nav><a href="#services">Services</a><a href="#story">Her Story</a><a href="https://www.instagram.com/deannagetzen/">Instagram</a></nav>
   </div>
   <div class="bigname" aria-hidden="true">Bananas</div>
 </section>
@@ -909,10 +909,10 @@
     { q: 'Pick your vibe.', a: [['Soft and natural', 'light'], ['Polished and sleek', 'cut'], ['Bold and glossy', 'color'], ['Healthy and shiny', 'gloss']] }
   ];
   const results = {
-    cut:   ['Signature Cut', 'A tailored shape that grows out beautifully. Add a gloss for extra shine.'],
-    light: ['Balayage & Lived-in Color', 'Soft, hand-painted brightness that stays low-maintenance between visits.'],
+    cut:   ['A Fresh Cut', 'A tailored shape that grows out beautifully. Add color in the same visit if you like.'],
+    light: ['Highlights', 'Deanna\u2019s favorite. Bright, blended highlights, usually done in about 90 minutes.'],
     color: ['All-over Color', 'A rich, even shade, custom-mixed and finished with a glossy blow-dry.'],
-    gloss: ['Gloss & Blowout', 'A quick refresh for tone and shine. Perfect between bigger appointments.']
+    gloss: ['Root Touch-Up', 'A quick color refresh at the roots, in and out without losing your afternoon.']
   };
   const box = document.getElementById('quizBox');
   const arrow = '<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" width="16" height="16"><path d="M2 8h11M9 4l4 4-4 4"/></svg>';
