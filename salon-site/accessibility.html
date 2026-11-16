@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Accessibility | Bananas Hair</title>
+<meta name="description" content="Accessibility for Bananas Hair in Phoenix, Arizona.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600&family=Newsreader:opsz,wght@6..72,300;6..72,400&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --espresso: #1d1410; --cocoa: #2b1b14; --bark: #56372a; --blush: #e3c1ad;
+    --cream: #f8eae0; --cream-2: #fcf3ed; --muted: #8a7266; --ink: #2b1b14;
+    --serif: "Newsreader", Georgia, serif; --sans: "Instrument Sans", system-ui, sans-serif;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: var(--cream); color: var(--ink); font-family: var(--sans); font-size: 16.5px; line-height: 1.65; -webkit-font-smoothing: antialiased; }
+  a { color: var(--bark); text-underline-offset: 3px; }
+  a:hover { color: var(--ink); }
+  a:focus-visible { outline: 2px solid var(--bark); outline-offset: 3px; border-radius: 4px; }
+  .top { background: var(--espresso); color: var(--cream); padding: 18px 16px; }
+  .top-in { max-width: 760px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; gap: 16px; }
+  .brand { font-family: var(--serif); font-size: 24px; letter-spacing: -0.03em; color: var(--blush); text-decoration: none; }
+  .back { color: var(--cream); font-size: 14px; text-decoration: none; opacity: .85; }
+  main { max-width: 760px; margin: 0 auto; padding: 64px 16px 80px; }
+  h1 { font-family: var(--serif); font-weight: 300; font-size: clamp(40px, 7vw, 64px); letter-spacing: -0.035em; line-height: 1; }
+  .date { margin: 14px 0 34px; font-size: 14px; color: var(--muted); }
+  .lead { font-size: 19px; line-height: 1.5; margin-bottom: 10px; }
+  h2 { font-family: var(--serif); font-weight: 400; font-size: 27px; letter-spacing: -0.02em; line-height: 1.15; margin: 40px 0 10px; }
+  p + p { margin-top: 12px; }
+  ul { margin: 12px 0 0 22px; }
+  li + li { margin-top: 6px; }
+  footer { background: var(--espresso); color: #b9a397; padding: 34px 16px 40px; font-size: 13.5px; }
+  .foot-in { max-width: 760px; margin: 0 auto; }
+  footer nav { display: flex; flex-wrap: wrap; gap: 10px 22px; margin-bottom: 18px; }
+  footer a { color: #e8d6ca; text-decoration: none; }
+  footer a[aria-current="page"] { color: var(--blush); text-decoration: underline; }
+</style>
+</head>
+<body>
+<header class="top"><div class="top-in"><a class="brand" href="index.html">Bananas Hair</a><a class="back" href="index.html">&larr; Back to home</a></div></header>
+<main>
+  <h1>Accessibility</h1>
+  <p class="date">Last updated November 16, 2026</p>
+  <p class="lead">Bananas Hair wants everyone to be able to use this website and visit the studio comfortably.</p>
+
+<h2>This website</h2>
+<p>We aim to follow the Web Content Accessibility Guidelines (WCAG) 2.1, Level AA. This site is built to:</p>
+<ul>
+  <li>Work with screen readers, with text descriptions on photos.</li>
+  <li>Be usable with a keyboard.</li>
+  <li>Respect your device&rsquo;s &ldquo;reduce motion&rdquo; setting by turning off animations.</li>
+  <li>Work on phones, tablets and computers, and allow text to be zoomed.</li>
+</ul>
+<p>Some content, such as older photos or links to other websites like Instagram, may not be fully accessible. We are working to improve the site over time.</p>
+
+<h2>The studio</h2>
+<p>If you have a disability or need an accommodation for your appointment, please let Deanna know when you book. We will do our best to help. Service animals are always welcome.</p>
+
+<h2>Feedback</h2>
+<p>If you have trouble using any part of this website, or have a suggestion, please text or call <a href="sms:+16028033496">(602) 803-3496</a>. Tell us the page and the problem, and we will try to fix it or get you the information another way.</p>
+
+<h2>Contact</h2>
+<p>Bananas Hair<br>4731 E Union Hills Dr, Phoenix, AZ 85050<br>Text or call: <a href="sms:+16028033496">(602) 803-3496</a></p>
+</main>
+<footer><div class="foot-in">
+  <nav aria-label="Policies"><a href="index.html">Home</a><a href="salon-policies.html">Salon Policies</a><a href="service-disclaimer.html">Service Disclaimer</a><a href="terms.html">Terms of Use</a><a href="privacy.html">Privacy Policy</a><a href="text-messaging.html">Text Messaging Terms</a><a href="accessibility.html" aria-current="page">Accessibility</a></nav>
+  <p>&copy; 2026 Bananas Hair &middot; 4731 E Union Hills Dr, Phoenix, AZ 85050 &middot; <a href="tel:+16028033496">(602) 803-3496</a></p>
+</div></footer>
+</body>
+</html>
